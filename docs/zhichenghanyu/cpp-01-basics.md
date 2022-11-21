@@ -10,7 +10,7 @@
 
 回顾一下，以下是最简单的 C++ 程序：
 
-```c++
+```cpp
 #include <iostream>
 
 int main(int argc, char* argv[]) {
@@ -23,7 +23,9 @@ int main(int argc, char* argv[]) {
 我们要逐一分析。
 
 **头文件**
+
 `#include <iostream>` 从语法角度看：所谓导入接口。比如 `std::cout` 和 `std::endl` 是在 `<iostream>` 头文件（真的就是一个文件，而已）。
+
 从原理角度看：它其实是“找到文件，并复制粘贴文件内容”。
 
 **main的参数和返回值**
@@ -36,7 +38,7 @@ main 函数的标准形式是这样的：`int main(int argc, char* argv[])`
 
 经过以下代码实验：
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 int main(int argc, char* argv[]) {
@@ -62,6 +64,7 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 ```
+
 有时候，如上，我们可能有一组 **类型相同** 的数据。
 如果我们一个个定义变量，那么代码会很长，而且不好维护。
 
