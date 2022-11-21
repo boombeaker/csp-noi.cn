@@ -92,6 +92,7 @@ markdown_extensions:
 nav:
     - 首页: index.md
     - 编程绘图:
+        - 打字软件的安装与使用: asymptote/kingsoft-typing-fun.md
         - 在线绘图: https://www.csp-noi.cn/online-draw/
         - Windows 下的安装: asymptote/install-on-windows.md
         - Mac 下的安装: asymptote/install-on-mac.md
