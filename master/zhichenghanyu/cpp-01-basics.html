@@ -546,7 +546,7 @@
 <h2 id="_1">复习<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <h3 id="_2">程序的基本结构<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <p>回顾一下，以下是最简单的 C++ 程序：</p>
-<p>```c++</p>
+<p>```cpp</p>
 <h1 id="include">include <iostream><a class="headerlink" href="#include" title="Permanent link">&para;</a></h1>
 <p>int main(int argc, char* argv[]) {
     std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;
@@ -555,16 +555,16 @@
 ```</p>
 <p>实际上，它的每一行，都蕴藏深刻的原理。
 我们要逐一分析。</p>
-<p><strong>头文件</strong>
-<code>#include &lt;iostream&gt;</code> 从语法角度看：所谓导入接口。比如 <code>std::cout</code> 和 <code>std::endl</code> 是在 <code>&lt;iostream&gt;</code> 头文件（真的就是一个文件，而已）。
-从原理角度看：它其实是“找到文件，并复制粘贴文件内容”。</p>
+<p><strong>头文件</strong></p>
+<p><code>#include &lt;iostream&gt;</code> 从语法角度看：所谓导入接口。比如 <code>std::cout</code> 和 <code>std::endl</code> 是在 <code>&lt;iostream&gt;</code> 头文件（真的就是一个文件，而已）。</p>
+<p>从原理角度看：它其实是“找到文件，并复制粘贴文件内容”。</p>
 <p><strong>main的参数和返回值</strong>
 main 函数的标准形式是这样的：<code>int main(int argc, char* argv[])</code>
 是不是很好奇，<code>main</code> 为什么会有需要有参数和返回值呢？</p>
 <p>其实，main 函数是整个程序的入口和出口。命令行可以通过参数和返回值，和 <code>main</code> 互动。</p>
 <p>实际上，在 windows 下，我们写的 <code>cpp</code> 源文件代码，最终会变成 <code>exe</code> 可执行文件。</p>
 <p>经过以下代码实验：</p>
-<p>```C++</p>
+<p>```cpp</p>
 <h1 id="include_1">include <iostream><a class="headerlink" href="#include_1" title="Permanent link">&para;</a></h1>
 <p>using namespace std;
 int main(int argc, char* argv[]) {
@@ -588,8 +588,8 @@ int main(int argc, char* argv[]) {
 </code></pre></div>
 
 <p>}
-```
-有时候，如上，我们可能有一组 <strong>类型相同</strong> 的数据。
+```</p>
+<p>有时候，如上，我们可能有一组 <strong>类型相同</strong> 的数据。
 如果我们一个个定义变量，那么代码会很长，而且不好维护。</p>
 <p>比如，在以上基础上，如果需要计算平均分，那么就需要：</p>
 <p>```cpp
