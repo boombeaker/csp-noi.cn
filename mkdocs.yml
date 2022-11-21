@@ -48,7 +48,7 @@ plugins:
 extra:
   version:
     provider: mike
-  disqus: true
+  disqus: false
 
 # Extensions
 markdown_extensions:
@@ -91,6 +91,15 @@ markdown_extensions:
 
 nav:
     - 首页: index.md
+    - 编程绘图:
+        - 在线绘图: https://www.csp-noi.cn/online-draw/
+        - Windows 下的安装: asymptote/install-on-windows.md
+        - Mac 下的安装: asymptote/install-on-mac.md
+    - C++ 基础:
+        - CodeBlocks 的安装: cpp/install-codeblocks.md
+        - 洛谷网的使用: cpp/tutorial-of-luogu.md
+        - VMWare 的安装: cpp/install-vmware.md
+        - NOI Linux 的安装: cpp/install-noi-linux.md
     - 志诚涵宇:
         20221113: zhichenghanyu/cpp-01-basics.md
         20221120: zhichenghanyu/cpp-02-array-luogu.md
