@@ -93,7 +93,7 @@ nav:
     - 首页: index.md
     - 编程绘图:
         - 打字软件的安装与使用: asymptote/kingsoft-typing-fun.md
-        - 在线绘图: http://draw.veryfast.cn:9527/
+        - 在线绘图: http://draw.veryfast.vip:9527/
         - Windows 下的安装: asymptote/install-on-windows.md
         - Mac 下的安装: asymptote/install-on-mac.md
     - C++ 基础:
